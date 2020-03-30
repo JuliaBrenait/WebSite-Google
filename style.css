@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+*{
+    margin: 0px;
+}
+
+/*HEADER*/
+
+header{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   float:right;
+   padding: 30px 10% 10px 20px;
+   font-family: 'Montserrat', sans-serif;
+   color: #78797b;
+}
+header p{
+   font-size: 30px;
+}
+ header img{
+    width: 30px;
+    padding-left: 40px;
+ }
+
+ /*BODY*/
+
+ #body{
+    margin-top:2%;
+    margin-left: 10%;
+    padding-left: 20px;
+ }
+
+ /*LOGO*/
+
+ #logo{
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 60px;
+   display: flex;
+ }
+
+#logo :first-child{
+   color: #4085f6;
+}
+
+#logo :nth-last-child(1){
+   color: #e94034;
+} 
+
+#logo :nth-last-child(2){
+  color: #33a853; 
+}
+
+#logo :nth-last-child(3){
+   color: #4085f6;
+}
+
+#logo :nth-last-child(4){
+      color: #f2bb18;
+}
+
+#logo :nth-last-child(5){
+   color: #e94034
+}
+
+/*SEARCH*/
+#search{
+   display: flex;
+   margin: 20% auto 0px 25%;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+   border: 1px solid #78797b;
+   border-radius: 80px;
+   max-width: fit-content;
+  
+}
+#search img{
+   width: 30px;
+   padding: 30px;
+   margin-left: 10px;
+}
+#input{
+   width: 600px;
+   height: 150px;
+   text-align: left;
+   font-size: 27px;
+   padding-right: 40%;
+   font-family: 'Spartan', sans-serif;
+   color: #aaaaaa;
+   
+   
+}
+p#input {
+   display: contents
+}
+
+/*FOOTER*/
+footer{
+  margin-left: 49%;
+  margin-top: 5%;
+}
+footer img{
+   width: 30px;
+   padding-bottom: 2%;
+}
+footer p{
+   margin-left: -50px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+}
